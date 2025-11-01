@@ -1,0 +1,361 @@
+{
+    "grammar_rules": [
+      {
+        "rule_id": 1,
+        "category": "Pronouns",
+        "subcategory": "Personal Pronouns (Subject)",
+        "description": "Bambara subject pronouns are generally invariable and precede the aspect marker or verb.",
+        "examples": [
+          {"bambara": "n", "english": "I"},
+          {"bambara": "i", "english": "you (singular)"},
+          {"bambara": "a", "english": "he, she, it"},
+          {"bambara": "an", "english": "we"},
+          {"bambara": "aw", "english": "you (plural)"},
+          {"bambara": "u", "english": "they"}
+        ]
+      },
+      {
+        "rule_id": 2,
+        "category": "Pronouns",
+        "subcategory": "Personal Pronouns (Object)",
+        "description": "Object pronouns often appear directly before the verb in SOV structures. They are mostly identical to subject pronouns.",
+        "examples": [
+          {"bambara": "n", "english": "me"},
+          {"bambara": "i", "english": "you (singular)"},
+          {"bambara": "a", "english": "him, her, it"},
+          {"bambara": "an", "english": "us"},
+          {"bambara": "aw", "english": "you (plural)"},
+          {"bambara": "u", "english": "them"}
+        ]
+      },
+      {
+        "rule_id": 3,
+        "category": "Pronouns",
+        "subcategory": "Possessive Determiners",
+        "description": "Possessive determiners precede the noun they modify. The particle 'ka' marks possession.",
+        "pattern": "Pronoun + ka + Noun (e.g., n ka so)",
+        "examples": [
+          {"bambara": "n ka", "english": "my"},
+          {"bambara": "i ka", "english": "your (singular)"},
+          {"bambara": "a ka", "english": "his, her, its"},
+          {"bambara": "an ka", "english": "our"},
+          {"bambara": "aw ka", "english": "your (plural)"},
+          {"bambara": "u ka", "english": "their"}
+        ]
+      },
+       {
+        "rule_id": 4,
+        "category": "Pronouns",
+        "subcategory": "Demonstrative Pronouns/Determiners",
+        "description": "Demonstratives often follow the noun. 'nin' indicates proximity, 'o'/'wo' indicate distance.",
+        "examples": [
+          {"bambara": "so nin", "english": "this house"},
+          {"bambara": "so o / so wo", "english": "that house"},
+          {"bambara": "ninw", "english": "these ones"},
+          {"bambara": "o/wo + w → olu/wolu", "english": "those ones"}
+        ]
+      },
+       {
+        "rule_id": 5,
+        "category": "Pronouns",
+        "subcategory": "Indefinite & Reciprocal Pronouns",
+        "description": "Indefinite pronouns refer to non-specific entities. Reciprocal pronouns indicate 'each other'.",
+        "examples": [
+          {"bambara": "mɔgɔ / maa", "english": "someone, person"},
+          {"bambara": "foyi", "english": "nothing (used with negation)"},
+          {"bambara": "fɛn", "english": "something, thing"},
+          {"bambara": "ɲɔgɔn / ɲwan", "english": "each other, one another"}
+        ]
+      },
+      {
+        "rule_id": 6,
+        "category": "Nouns",
+        "subcategory": "Pluralization",
+        "description": "The standard plural marker '-w' is suffixed to nouns, adjectives, determiners, pronouns, participles, and proper nouns. A rarer plural marker '-lu'/'-nu' (PL2, often based on nasality) exists, sometimes seen in specific contexts like songs.",
+        "pattern": "X + w (Standard PL) / X + lu/nu (Rare PL2)",
+        "examples": [
+          {"bambara": "so → sow", "english": "house → houses"},
+          {"bambara": "den → denw", "english": "child → children"},
+          {"bambara": "muso → musow", "english": "woman → women"},
+          {"bambara": "nin → ninw", "english": "this → these"},
+          {"bambara": "mɔgɔ → mɔgɔlu/mɔgɔnu (rare)", "english": "person → people"}
+        ]
+      },
+      {
+          "rule_id": 7,
+          "category": "Nouns",
+          "subcategory": "Definite/Indefinite",
+          "description": "Bambara often lacks explicit articles. Definiteness/specificity can be marked by context, demonstratives (nin/o), or numerals (kelen for 'a certain').",
+          "examples": [
+              {"bambara": "So bɛ yen.", "english": "There is a house / There are houses."},
+              {"bambara": "So nin kaɲi.", "english": "This house is nice."},
+              {"bambara": "So kelen bɛ yen.", "english": "There is one house / a certain house."}
+          ]
+      },
+      {
+          "rule_id": 8,
+          "category": "Nouns",
+          "subcategory": "Gender Specification",
+          "description": "No grammatical gender. Sex is specified by compounding with 'cɛ' (male) or 'muso' (female/feminine) for animate beings or sometimes concepts.",
+          "pattern": "Noun + cɛ / Noun + muso",
+          "examples": [
+              {"bambara": "dencɛ", "english": "boy (child-male)"},
+              {"bambara": "denmuso", "english": "girl (child-female)"},
+              {"bambara": "bamusokɛ", "english": "he-goat (goat-male)"} 
+          ]
+      },
+      {
+        "rule_id": 9,
+        "category": "Verbs",
+        "subcategory": "Perfective Aspect (Completed Action)",
+        "description": "Completed actions use the auxiliary 'ye' (positive) or 'ma' (negative) after the subject for transitive verbs. Intransitive verbs often take a suffix '-ra'/'-la'/'-na' (PFV.INTR), with the form depending on the final sound of the verb stem (nasal, glide, other).",
+        "pattern": "S + ye/ma + O + V (Transitive Aux) / S + V-(ra/la/na) (Intransitive Suffix)",
+        "examples": [
+          {"bambara": "N ye so san.", "english": "I bought a house."},
+          {"bambara": "A nara.", "english": "He/she came. (na + ra)"},
+          {"bambara": "U donna.", "english": "They entered. (don + na)"},
+          {"bambara": "N ma so san.", "english": "I did not buy a house."},
+          {"bambara": "A man na / A ma na.", "english": "He/she did not come."} 
+        ]
+      },
+       {
+        "rule_id": 10,
+        "category": "Verbs",
+        "subcategory": "Imperfective Aspect (Ongoing/Future/Habitual)",
+        "description": "Ongoing, future, or habitual actions use the auxiliary 'bɛ' (positive) or 'tɛ' (negative) placed after the subject. A progressive aspect can also be marked with the suffix '-la'/'-na' (PROG), conditioned by nasality.",
+        "pattern": "S + bɛ/tɛ + (O) + V (Aux) / S + V-(la/na) (Prog Suffix - often combines with Aux)",
+        "examples": [
+          {"bambara": "N bɛ taa.", "english": "I am going / I will go / I go."},
+          {"bambara": "A bɛ baara kɛ.", "english": "He/she is working / will work / works."},
+          {"bambara": "N tɛ taa.", "english": "I am not going / I will not go / I don't go."},
+          {"bambara": "A bɛ dɔnna.", "english": "He/she is dancing. (dɔn + na)"}
+        ]
+      },
+      {
+        "rule_id": 11,
+        "category": "Verbs",
+        "subcategory": "Subjunctive/Infinitive Marker 'ka'",
+        "description": "The marker 'ka' is used after the subject for subjunctive mood (desire, obligation, purpose) or to introduce infinitival clauses.",
+        "pattern": "S + (Aux) + ka + (O) + V",
+        "examples": [
+          {"bambara": "A ka na.", "english": "He/she should come / Let him/her come."},
+          {"bambara": "N b'a fɛ n ka taa.", "english": "I want to go."},
+          {"bambara": "Aw ka kalan kɛ!", "english": "You (pl) should study!"},
+          {"bambara": "A ye na ka an dɛmɛ.", "english": "He came to help us."}
+        ]
+      },
+      {
+        "rule_id": 12,
+        "category": "Verbs",
+        "subcategory": "Imperative (Commands)",
+        "description": "Imperative uses the verb stem alone (singular). The plural uses 'aw ka' + verb stem.",
+        "pattern": "Verb (sg) / Aw ka Verb (pl)",
+        "examples": [
+          {"bambara": "Na!", "english": "Come! (singular)"},
+          {"bambara": "Domun!", "english": "Eat! (singular)"},
+          {"bambara": "Aw ka na!", "english": "Come! (plural)"},
+          {"bambara": "Aw k'a dun!", "english": "Eat it! (plural)"} 
+        ]
+      },
+      {
+        "rule_id": 13,
+        "category": "Verbs",
+        "subcategory": "Copulas ('To Be')",
+        "description": "Bambara uses different copulas: 'don' for identification/focus, 'ye...ye' for predication (quality/state/equivalence), 'bɛ/tɛ' for location/existence.",
+        "examples": [
+          {"bambara": "Ali don.", "english": "It's Ali. / That's Ali."},
+          {"bambara": "So ye nɔgɔn ye.", "english": "The house is dirty."},
+          {"bambara": "Nin ye tabali ye.", "english": "This is a table."},
+          {"bambara": "A bɛ so kɔnɔ.", "english": "He/she is in the house."},
+          {"bambara": "Ji tɛ yan.", "english": "There is no water here."}
+        ]
+      },
+       {
+        "rule_id": 14,
+        "category": "Adjectives & Qualificatives (vq)",
+        "subcategory": "Placement and Function",
+        "description": "Adjectives/Qualificative Verbs (vq) typically follow the noun or function as the main predicate using the 'ye...ye' copula structure. Some derive into adjectives using '-man'.",
+        "pattern": "Noun + Adj/vq OR Noun + ye + Adj/vq + ye",
+        "examples": [
+          {"bambara": "so fitini", "english": "a small house"},
+          {"bambara": "muso ɲuman", "english": "a good woman"},
+          {"bambara": "So ye kɔrɔn ye.", "english": "The house is old."},
+          {"bambara": "A ka bon.", "english": "It is big. (using 'ka' predicative)"}, 
+          {"bambara": "jugu → juguman", "english": "bad (vq) → bad (adj)"}
+        ]
+      },
+       {
+        "rule_id": 15,
+        "category": "Sentence Structure",
+        "subcategory": "Basic Order",
+        "description": "Basic sentence order is typically Subject-(Aux)-Object-Verb-(Postposition) (S-Aux-O-V-PP).",
+        "pattern": "S + (Aux) + O + V + (Postposition)",
+        "examples": [
+          {"bambara": "N ye tiga dun.", "english": "I ate peanuts."},
+          {"bambara": "A bɛ taa sugu la.", "english": "He/she is going to the market."}
+        ]
+      },
+      {
+        "rule_id": 16,
+        "category": "Sentence Structure",
+        "subcategory": "Postpositions",
+        "description": "Postpositions follow nouns or noun phrases to indicate location, direction, possession, instrument, manner, etc.",
+        "examples": [
+          {"bambara": "so la", "english": "in/at/on the house"},
+          {"bambara": "sugu la", "english": "to/at the market"},
+          {"bambara": "n fɛ", "english": "with me / near me / by me"},
+          {"bambara": "muru ye", "english": "with a knife (instrumental)"},
+          {"bambara": "a ma", "english": "to/for him/her (dative/benefactive)"},
+          {"bambara": "tabali kan", "english": "on the table"}
+        ]
+      },
+      {
+        "rule_id": 17, 
+        "category": "Negation",
+        "subcategory": "Aspectual Negation",
+        "description": "Negation is primarily marked by replacing positive aspect markers: 'ye' becomes 'ma' (Perfective Negative), 'bɛ' becomes 'tɛ' (Imperfective Negative). 'tɛ' is also used for negative existence/location.",
+        "pattern": "S + ma + O + V (PFV.NEG) / S + tɛ + O + V (IPFV.NEG)",
+        "examples": [
+          {"bambara": "N ma tiga dun.", "english": "I did not eat peanuts."},
+          {"bambara": "A ma na.", "english": "He/she did not come."},
+          {"bambara": "N tɛ tiga dun.", "english": "I am not eating/will not eat peanuts."},
+          {"bambara": "A tɛ baara kɛ.", "english": "He/she is not working/will not work."},
+          {"bambara": "Ji tɛ yan.", "english": "There is no water here."}
+        ]
+      },
+
+      {
+        "rule_id": 20,
+        "category": "Derivation",
+        "subcategory": "Diminutive & Augmentative",
+        "description": "The suffix '-nin' (DIM) creates a diminutive form (small, young, dear). The suffix '-ba' (AUGM) creates an augmentative form (large, important, adult). Applicable to nouns, adjectives, participles.",
+        "pattern": "X + nin / X + ba",
+        "examples": [
+          {"bambara": "den → dennin", "english": "child → small child"},
+          {"bambara": "so → soba", "english": "house → large house"},
+          {"bambara": "muso → musonin / musoba", "english": "woman → young woman/girl / important woman"},
+          {"bambara": "nafolo → nafoloba", "english": "wealth → great wealth"}
+        ]
+      },
+      {
+        "rule_id": 21,
+        "category": "Derivation",
+        "subcategory": "Abstract Nouns",
+        "description": "The suffix '-ya' (ABSTR) forms abstract nouns from nouns, adjectives, participles, or verbs, indicating a quality, state, or condition.",
+        "pattern": "X + ya",
+        "examples": [
+          {"bambara": "jugu (bad) → juguya", "english": "badness"},
+          {"bambara": "barika (strength) → barikaya", "english": "state of being strong"},
+          {"bambara": "kɛnɛ (healthy) → kɛnɛya", "english": "health"},
+          {"bambara": "bali (to deprive) → baliya", "english": "deprivation (often from PTCP.PRIV)"}
+        ]
+      },
+       {
+        "rule_id": 22,
+        "category": "Derivation",
+        "subcategory": "Nominalization (Action Nouns)",
+        "description": "The suffix '-li'/'-ni' (NMLZ), conditioned by nasality, forms action nouns (gerunds) from verbs. Often combines with 'kɛ' (to do) or other nouns.",
+        "pattern": "V + li/ni",
+        "examples": [
+          {"bambara": "kalan (to study) → kalanli", "english": "studying, the act of studying"},
+          {"bambara": "dɔn (to know) → dɔnni", "english": "knowing, knowledge"},
+          {"bambara": "baara kɛ (to work) → baarakɛli", "english": "working, the act of working"}
+        ]
+      },
+      {
+        "rule_id": 23,
+        "category": "Derivation",
+        "subcategory": "Agent Nouns",
+        "description": "Suffixes '-baga' or '-baa' (AG.OCC) form agent nouns (doer of an action) from verbs or nominalized verbs (-li/-ni). '-tɔ' (CONV) can form agent/characteristic nouns. '-la'/'-na' (AG.PRM) can also form agent nouns (prominent agent).",
+        "pattern": "V/N + baga/baa / V + tɔ / V + la/na",
+        "examples": [
+          {"bambara": "kalan (to study) → kalanbaga / kalanbaa", "english": "student"},
+          {"bambara": "baara kɛ (to work) → baarakɛbaga / baarakɛbaa", "english": "worker"},
+          {"bambara": "su (to die) → sutɔ", "english": "dead person / mortal"},
+          {"bambara": "dayɛlɛ (to open) → dayɛlɛla", "english": "opener"}
+        ]
+      },
+      {
+        "rule_id": 24,
+        "category": "Derivation",
+        "subcategory": "Participles",
+        "description": "Various suffixes form participles from verbs: '-nen'/'-len' (PTCP.RES - resultative/past participle), '-bali' (PTCP.PRIV - lacking/unable), '-ta' (PTCP.POT - potential/able), '-tɔ' (CONV - often agentive/characteristic).",
+        "pattern": "V + nen/len / V + bali / V + ta / V + tɔ",
+        "examples": [
+          {"bambara": "kari (to break) → karilen", "english": "broken"},
+          {"bambara": "dɔn (to know) → dɔnnen", "english": "known"},
+          {"bambara": "kɛ (to do) → kɛbali", "english": "impossible / undoable"},
+          {"bambara": "dun (to eat) → dunta", "english": "edible"},
+          {"bambara": "boli (to run) → bolitɔ", "english": "runner / one who runs"}
+        ]
+      },
+      {
+        "rule_id": 25,
+        "category": "Derivation",
+        "subcategory": "Other Derivational Affixes",
+        "description": "Includes: '-lama'/'-nama' (STAT - having the quality of), '-ma' (COM - accompanied by), '-ntan' (PRIV - without), '-ka' (GENT - origin/belonging to, on proper nouns), '-la'/'-na' (LOC - locative, on proper nouns), '-lan'/'-nan' (INSTR - instrument).",
+        "examples": [
+          {"bambara": "wari (money) → warinama / warilama", "english": "rich (having money)"},
+          {"bambara": "hɔrɔn (noble) → hɔrɔnya → hɔrɔnyama", "english": "related to nobility"},
+          {"bambara": "den (child) → denntan", "english": "childless"},
+          {"bambara": "Mali (Mali) → Malika", "english": "Malian"},
+          {"bambara": "Bamakɔ (Bamako) → Bamakɔla", "english": "in/at Bamako"},
+          {"bambara": "kalan (to study) → kalanlan", "english": "instrument for studying (e.g., book)"}
+        ]
+      },
+      {
+        "rule_id": 26,
+        "category": "Derivation",
+        "subcategory": "Verbal Prefixes & Suffixes",
+        "description": "Verbs can take prefixes like 'lá-' (CAUS - causative), 'mà-' (SUPER - superlative/excessive), 'rɔ́-' (IN - inessive/in), 'sɔ̀-' (EN - ??? likely causative/introductive). Suffixes include '-ma' (DIR - directional) and '-ra'/'-la'/'-na' (OPT2 - optative mood).",
+        "examples": [
+          {"bambara": "don (to enter) → ladon", "english": "to put in / to make enter"},
+          {"bambara": "jugu (bad) → majugu", "english": "to worsen / be very bad"},
+          {"bambara": "bɔ (to exit) → rɔbɔ", "english": "to take out from within"},
+          {"bambara": "don (to enter) → sɔdon", "english": "to introduce / put inside"},
+          {"bambara": "bɔ (to exit) → bɔma", "english": "to come towards / exit towards"},
+          {"bambara": "A ye taara.", "english": "He should go (Optative)."} 
+        ]
+      },
+       {
+        "rule_id": 27,
+        "category": "Word Formation",
+        "subcategory": "Compounding",
+        "description": "Bambara frequently forms new words by compounding existing ones. Common patterns include N+N, V+N, N+V, N+Adj, N+PP+N, V+NMLZ+N, etc. The meaning is often compositional but can become lexicalized.",
+        "examples": [
+          {"bambara": "fari + kolo → farikolo", "english": "body (skin-bone)"},
+          {"bambara": "sinsin + bere → sinsinbere", "english": "walking stick (support-stick)"},
+          {"bambara": "juru + don → jurudon", "english": "to borrow (debt-enter)"},
+          {"bambara": "bugu + jɛ → bugujɛ", "english": "white hut"},
+          {"bambara": "bolo + kɔnɔ + mɔgɔ → bolokɔnɔmɔgɔ", "english": "dependent (hand-in-person)"},
+          {"bambara": "kɔlɔsi + li + kɛ → kɔlɔsilikɛ", "english": "to monitor (monitor-NMLZ-do)"}
+        ]
+      },
+      {
+        "rule_id": 28,
+        "category": "Word Formation",
+        "subcategory": "Reduplication",
+        "description": "Reduplication (repeating a word or stem, sometimes with a hyphen) is common for verbs, adjectives, and adverbs to indicate intensity, repetition, distribution, or plurality.",
+        "pattern": "X + X / X - X",
+        "examples": [
+          {"bambara": "dɔɔni → dɔɔni-dɔɔni", "english": "little → little by little"},
+          {"bambara": "teliya → teliyateliya", "english": "quickly → very quickly"},
+          {"bambara": "wuli → wuliwuli", "english": "to get up → to get up repeatedly / all get up"}
+        ]
+      },
+      {
+        "rule_id": 29,
+        "category": "Numerals",
+        "subcategory": "Ordinal & Price Markers",
+        "description": "Ordinals are formed by adding the suffix '-nan' (or '-n' in some varieties) to the cardinal number. The price marker '-la'/'-na' (PRIX) can be added to a number.",
+        "pattern": "Number + nan/n (Ordinal) / Number + la/na (Price)",
+        "examples": [
+          {"bambara": "fila (two) → filanan", "english": "second"},
+          {"bambara": "duuru (five) → duurunan", "english": "fifth"},
+          {"bambara": "wɔɔrɔ (six) → wɔɔrɔnan / wɔɔrɔn", "english": "sixth"},
+          {"bambara": "tɛmɛ (100) → tɛmɛna", "english": "for 100 (price)"}
+        ]
+      }
+    ]
+  }
+  
