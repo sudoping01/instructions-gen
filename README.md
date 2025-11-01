@@ -45,7 +45,3 @@ The framework can be adapted to other low-resource languages by providing:
 }
 ```
 
-## License
-
-MIT License
-
