@@ -1,6 +1,5 @@
-# processor.py
-from typing import List, Dict, Optional, Tuple
 
+from typing import List, Dict, Optional, Tuple
 
 from openai import AsyncOpenAI
 from datetime import datetime
