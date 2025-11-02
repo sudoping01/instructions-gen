@@ -22,10 +22,20 @@ This project addresses the critical shortage of instruction datasets for Bambara
 
 ## Results
 
-Our system generated over 2 million Bambara conversations across multiples source datasets, achieving:
-- 98.5% processing success rate
-- Validation through successful language model training (93.4% loss reduction)
-- Grammatically coherent outputs respecting Bambara's SOV word order and morphology
+Our system generated over 2 million Bambara conversational samples from multiple source datasets, achieving a 98.5 % processing success rate.
+The 93.4 % reduction in validation loss during language model training suggests that the dataset exhibits strong internal consistency and linguistic coherence, enabling effective model generalization.
+The resulting outputs are grammatically coherent, adhering to Bambara’s SOV word order and morphological rules.
+
+
+
+
+## Evaluations
+[COMING SOON]
+
+
+![MALIBA-AI Chat Screenshot](assets/model_output.jpeg)
+
+
 
 ## Adaptation for Other Languages
 
