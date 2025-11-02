@@ -1,0 +1,17 @@
+- Anthropic/hh-rlhf
+- Anthropic/model-written-evals
+- OpenAssistant/oasst2
+- OpenAssistant/oasst1
+- google/smol:  gatitos__en_bm, smoldoc__en_bm, smolsent__en_bm
+- CohereLabs/aya_collection_language_split : "french"
+- "openai/gsm8k":  main, socratic, 
+- HuggingFaceH4/CodeAlpaca_20K
+- angeluriot/french_instruct
+- MemGPT/MSC-Self-Instruct
+- goendalf666/sales-conversations-instruction-base
+- MemGPT/MSC-Self-Instruct
+- HuggingFaceH4/instruction-dataset
+- HuggingFaceTB/instruct-data-basics-smollm-H4
+- lmsys/lmsys-chat-1m
+- everyday-conversations-llama3.1-2k
+- IrfanHamid/chat-dataset
