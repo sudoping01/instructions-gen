@@ -16,14 +16,14 @@ This project addresses the critical shortage of instruction datasets for Bambara
 - **Knowledge-Enhanced Translation**: Integrates glossaries, grammar rules, and annotated examples
 - **Reasoning-Based Processing**: Leverages LLM reasoning for complex linguistic transformations
 - **High-Performance Architecture**: Concurrent processing with caching, fault tolerance, and checkpointing
-- **Scale**: Successfully generated 1.4M+ Bambara conversations from diverse English/French datasets
+- **Scale**: Successfully generated 2M+ Bambara conversations from diverse English/French datasets
 
 
 
 ## Results
 
-Our system generated over 1.4 million Bambara conversations across 9 source datasets, achieving:
-- 98.5% translation success rate
+Our system generated over 2 million Bambara conversations across multiples source datasets, achieving:
+- 98.5% processing success rate
 - Validation through successful language model training (93.4% loss reduction)
 - Grammatically coherent outputs respecting Bambara's SOV word order and morphology
 
@@ -37,11 +37,15 @@ The framework can be adapted to other low-resource languages by providing:
 ## Citation
 
 ```bibtex
-@article{diallo2025linguistically,
+@article{diallo2025bambara,
   title={Linguistically-Informed Large Language Models for Low-Resource Instruction Dataset Creation},
   author={Diallo, Seydou},
   journal={[Unpublished manuscript]},
-  year={2025}
+  year={2025},
+  month={July},
+  url={Unpublished}
 }
 ```
+
+
 
