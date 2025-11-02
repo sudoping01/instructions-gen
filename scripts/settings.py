@@ -45,9 +45,9 @@ if not API_KEY:
 # ################################################
 # ------- Linguistic resources files -----------
 ##################################################
-GLOSSARY_FILE = os.getenv("GLOSSARY_FILE", "linguistic_resources/glossary.json")
-GRAMMAR_RULE_FILE = os.getenv("GRAMMAR_RULE_FILE", "linguistic_resources/grammar_rule.json")
-CONLLU_FILE = os.getenv("CONLLU_FILE", "linguistic_resources/bm_crb-ud-test.conllu")
+GLOSSARY_FILE = os.getenv("GLOSSARY_FILE", "resources/glossary.json")
+GRAMMAR_RULE_FILE = os.getenv("GRAMMAR_RULE_FILE", "resources/grammar_rule.json")
+CONLLU_FILE = os.getenv("CONLLU_FILE", "resources/bm_crb-ud-test.conllu")
 
 # ################################################
 # ------- dataset files [jsonl] -----------
